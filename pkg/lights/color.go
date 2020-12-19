@@ -1,13 +1,26 @@
-package ornament
+package lights
 
 import (
+	"fmt"
 	"math/rand"
+	"strings"
 
 	"github.com/wayneashleyberry/truecolor/pkg/color"
 )
 
-// Apply a random color to a ornament.
-func GenerateColor(in string) string {
+func ApplyColorsToLights(t string) string {
+	applied := t
+
+	for i := 1; i < 20; i++ {
+		iStr := fmt.Sprint(i) + "O"
+		applied = strings.Replace(applied, iStr, generateColor("O"), 1)
+	}
+
+	return applied
+}
+
+// Apply a random color for the light.
+func generateColor(in string) string {
 	var (
 		selection = rand.Intn(5)
 		c         *color.Message

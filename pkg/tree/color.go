@@ -16,7 +16,7 @@ func ApplyColors(base string) string {
 	)
 
 	applied = applyColorToChars(applied, yellow, "y", []string{
-		"|", "-", "A", "+",
+		"|", "-", "A", "+", "*",
 	})
 
 	applied = applyColorToChars(applied, green, "g", []string{

@@ -3,9 +3,12 @@ package main
 import (
 	"fmt"
 	"os"
+	"time"
 
+	"github.com/Matt-Gleich/ctree/pkg/lights"
 	"github.com/Matt-Gleich/ctree/pkg/tree"
 	"github.com/Matt-Gleich/statuser/v2"
+	"github.com/inancgumus/screen"
 	"github.com/urfave/cli/v2"
 )
 
@@ -15,9 +18,14 @@ func main() {
 		Usage: "🎄 Christmas tree right from your terminal!",
 		Action: func(c *cli.Context) error {
 			t := tree.MsgBase
-			gc := tree.ApplyColors(t)
-			fmt.Println(gc)
-			return nil
+			for {
+				screen.Clear()
+				screen.MoveTopLeft()
+				base := tree.ApplyColors(t)
+				full := lights.ApplyColorsToLights(base)
+				fmt.Println(full)
+				time.Sleep(time.Second * 3)
+			}
 		},
 	}
 

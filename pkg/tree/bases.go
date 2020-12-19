@@ -1,42 +1,24 @@
 package tree
 
 const (
-	// Sourced from the ASCII Art Archive (https://www.asciiart.eu/holiday-and-events/christmas/trees)
+	// Based off the a tre from the ASCII Art Archive (https://www.asciiart.eu/holiday-and-events/christmas/trees)
 	MsgBase = `
          y|
         y-y+y-
          yA
         g/g=g\               /\  /\    ___  _ __  _ __ __    __
-      1g/ O g\2            /  \/  \  / _ \| '__|| '__|\ \  / /
+      1Og/ y* g\2O            /  \/  \  / _ \| '__|| '__|\ \  / /
       g/g=g=g=g=g=g\           / /\  /\ \|  __/| |   | |    \ \/ /
-      g/  i  g\           \ \ \/ / / \___/|_|   |_|     \  /
-    3g/ O * O g\4                                       / /
+      g/  3O  g\           \ \ \/ / / \___/|_|   |_|     \  /
+    4Og/ 5O y* 6O g\7O                                       / /
     g/g=g=g=g=g=g=g=g=g=g\        __  __                        /_/    _
-    g/  *   *  g\        \ \/ /        /\  /\    ____  ____  | |
-  5g/ O   i   O g\6       \  /   __   /  \/  \  / _  |/ ___\ |_|
+    g/  y*   y*  g\        \ \/ /        /\  /\    ____  ____  | |
+  8Og/ y*   9O   y* g\10O       \  /   __   /  \/  \  / _  |/ ___\ |_|
   g/g=g=g=g=g=g=g=g=g=g=g=g=g=g\       /  \  |__| / /\  /\ \| (_| |\___ \  _
-  g/  O   i   O  g\      /_/\_\      \ \ \/ / / \__,_|\____/ |_|
-7g/ *   O   O   * g\8
+  g/  14O   y*   15O  g\      /_/\_\      \ \ \/ / / \__,_|\____/ |_|
+16Og/ y*   17O   18O   y* g\19O
 g/g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g\
        b|   b|
-       b|b_b_b_b|`
-
-	NoMsgBase = `
-         y|
-        y-y+y-
-         yA
-        g/g=g\
-      1g/ 9 g\2
-      g/g=g=g=g=g=g\
-      g/  i  g\
-    3g/ O * O g\4
-    g/g=g=g=g=g=g=g=g=g=g\
-    g/  *   *  g\
-  5g/ O   i   O g\6
-  g/g=g=g=g=g=g=g=g=g=g=g=g=g=g\
-  g/  O   i   O  g\
-7g/ *   O   O   * g\8
-g/g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g\
-       b|   b|
-       b|b_b_b_b|`
+       b|b_b_b_b|
+`
 )
