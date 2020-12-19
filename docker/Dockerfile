@@ -2,7 +2,7 @@ FROM golang:1.15-alpine3.12 AS builder
 
 # Meta data:
 LABEL maintainer="email@mattglei.ch"
-LABEL description="🎄 Christmas tree right from your terminal!"
+LABEL description="🎄 A Christmas tree right from your terminal!"
 
 # Copying over all the files:
 COPY . /usr/src/app

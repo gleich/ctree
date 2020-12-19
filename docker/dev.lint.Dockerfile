@@ -2,7 +2,7 @@ FROM golangci/golangci-lint:v1.33
 
 # Meta data
 LABEL maintainer="email@mattglei.ch"
-LABEL description="🎄 Christmas tree right from your terminal!"
+LABEL description="🎄 A Christmas tree right from your terminal!"
 
 # Copying over files
 COPY . /usr/src/app
