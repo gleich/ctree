@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Matt-Gleich/ctree/pkg/ornament"
+	"github.com/Matt-Gleich/ctree/pkg/tree"
 	"github.com/Matt-Gleich/statuser/v2"
 	"github.com/urfave/cli/v2"
 )
@@ -14,7 +14,8 @@ func main() {
 		Name:  "ctree",
 		Usage: "🎄 Christmas tree right from your terminal!",
 		Action: func(c *cli.Context) error {
-			gc := ornament.GenerateColor("hello")
+			t := tree.MsgBase
+			gc := tree.ApplyColors(t)
 			fmt.Println(gc)
 			return nil
 		},
