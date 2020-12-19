@@ -16,14 +16,23 @@ func main() {
 	app := &cli.App{
 		Name:  "ctree",
 		Usage: "🎄 Christmas tree right from your terminal!",
+		Flags: []cli.Flag{
+			&cli.BoolFlag{
+				Name:  "no-refresh",
+				Usage: "--no-refresh",
+			},
+		},
 		Action: func(c *cli.Context) error {
-			t := tree.MsgBase
+			base := tree.ApplyColors(tree.MsgBase)
+			if c.Bool("no-refresh") {
+				fmt.Println(lights.ApplyColorsToLights(base))
+				os.Exit(0)
+			}
+
 			for {
 				screen.Clear()
 				screen.MoveTopLeft()
-				base := tree.ApplyColors(t)
-				full := lights.ApplyColorsToLights(base)
-				fmt.Println(full)
+				fmt.Println(lights.ApplyColorsToLights(base))
 				time.Sleep(time.Second * 3)
 			}
 		},
