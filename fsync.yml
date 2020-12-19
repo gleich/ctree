@@ -3,7 +3,7 @@ replace:
   - before: project_name
     after: ctree
   - before: project_description
-    after: 🎄 Christmas tree right from your terminal!
+    after: 🎄 A Christmas tree right from your terminal!
   - before: github_username
     after: Matt-Gleich
   - before: project_author_email

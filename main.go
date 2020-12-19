@@ -15,7 +15,7 @@ import (
 func main() {
 	app := &cli.App{
 		Name:  "ctree",
-		Usage: "🎄 Christmas tree right from your terminal!\nRepository: https://github.com/Matt-Gleich/ctree",
+		Usage: "🎄 A Christmas tree right from your terminal!\nRepository: https://github.com/Matt-Gleich/ctree",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{
 				Name:  "no-refresh",

@@ -2,7 +2,7 @@
 
 # ctree
 
-🎄 Christmas tree right from your terminal!
+🎄 A Christmas tree right from your terminal!
 
 ![build](https://github.com/Matt-Gleich/ctree/workflows/build/badge.svg)
 ![lint](https://github.com/Matt-Gleich/ctree/workflows/lint/badge.svg)
