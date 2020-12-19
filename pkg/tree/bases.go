@@ -1,8 +1,7 @@
 package tree
 
-const (
-	// Based off the a tre from the ASCII Art Archive (https://www.asciiart.eu/holiday-and-events/christmas/trees)
-	MsgBase = `
+// Based off the a tre from the ASCII Art Archive (https://www.asciiart.eu/holiday-and-events/christmas/trees)
+const MsgBase = `
          y|
         y-y+y-
          yA
@@ -21,4 +20,3 @@ g/g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g=g\
        b|   b|
        b|b_b_b_b|
 `
-)

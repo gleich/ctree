@@ -15,11 +15,11 @@ import (
 func main() {
 	app := &cli.App{
 		Name:  "ctree",
-		Usage: "🎄 Christmas tree right from your terminal!",
+		Usage: "🎄 Christmas tree right from your terminal!\nRepository: https://github.com/Matt-Gleich/ctree",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{
 				Name:  "no-refresh",
-				Usage: "--no-refresh",
+				Usage: "Just output the tree once normally",
 			},
 		},
 		Action: func(c *cli.Context) error {
