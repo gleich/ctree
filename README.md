@@ -5,9 +5,28 @@
 🎄 Christmas tree right from your terminal!
 
 ![build](https://github.com/Matt-Gleich/ctree/workflows/build/badge.svg)
-![test](https://github.com/Matt-Gleich/ctree/workflows/test/badge.svg)
 ![lint](https://github.com/Matt-Gleich/ctree/workflows/lint/badge.svg)
 ![release](https://github.com/Matt-Gleich/ctree/workflows/release/badge.svg)
+
+## 👀 Demo
+
+![demo gif](./images/demo.gif)
+
+## ⌛ No Refresh
+
+Don't want the tree to refresh every 2 seconds? Easy! Just add the `--no-refresh` flag when you run ctree.
+
+## 🚀 Installing ctree
+
+### 🍎 macOS
+
+```bash
+brew install Matt-Gleich/homebrew-taps/ctree
+```
+
+### 🐧 Linux and 🖥 Windows
+
+You can grab the binary from the [latest release](https://github.com/Matt-Gleich/ctree/releases/latest)
 
 ## 🙌 Contributing
 
