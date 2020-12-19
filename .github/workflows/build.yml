@@ -23,16 +23,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - run: make build-docker-prod
-  docker-dev:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-      - run: make build-docker-dev
   docker-dev-lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - run: make build-docker-dev-lint
-
