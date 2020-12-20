@@ -1,7 +1,7 @@
 release:
   github:
     owner: Matt-Gleich
-    name: 'ctree'
+    name: "ctree"
   prerelease: auto
 before:
   hooks:
@@ -18,3 +18,13 @@ builds:
     goarm:
       - 6
       - 7
+brews:
+  - tap:
+      owner: Matt-Gleich
+      name: homebrew-taps
+    folder: Formula
+    homepage: "https://github.com/Matt-Gleich/ctree"
+    description: "🎄 A Christmas tree right from your terminal!"
+    commit_author:
+      name: Matt-Gleich
+      email: email@mattglei.ch
