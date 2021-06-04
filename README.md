@@ -1,4 +1,4 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "ImgBotApp"]:end -->
+<!-- DO NOT REMOVE - contributor_list:data:start:["gleich", "ImgBotApp"]:end -->
 
 # ctree
 
@@ -36,7 +36,7 @@ Before contributing please read the [CONTRIBUTING.md file](https://github.com/Ma
 ## 👥 Contributors
 
 
-- **[@Matt-Gleich](https://github.com/Matt-Gleich)**
+- **[@gleich](https://github.com/gleich)**
 
 - **[@ImgBotApp](https://github.com/ImgBotApp)**
 
