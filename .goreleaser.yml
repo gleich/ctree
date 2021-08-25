@@ -21,7 +21,7 @@ builds:
 brews:
   - tap:
       owner: Matt-Gleich
-      name: homebrew-taps
+      name: tap
     folder: Formula
     homepage: "https://github.com/Matt-Gleich/ctree"
     description: "🎄 A Christmas tree right from your terminal!"

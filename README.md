@@ -21,7 +21,7 @@ Don't want the tree to refresh every 2 seconds? Easy! Just add the `--no-refresh
 ### 🍎 macOS
 
 ```bash
-brew install Matt-Gleich/homebrew-taps/ctree
+brew install Matt-Gleich/tap/ctree
 ```
 
 ### 🐧 Linux and 🖥 Windows
