@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Matt-Gleich/ctree/pkg/lights"
-	"github.com/Matt-Gleich/ctree/pkg/tree"
-	"github.com/Matt-Gleich/statuser/v2"
+	"github.com/gleich/ctree/pkg/lights"
+	"github.com/gleich/ctree/pkg/tree"
+	"github.com/gleich/statuser/v2"
 	"github.com/inancgumus/screen"
 	"github.com/urfave/cli/v2"
 )
@@ -15,7 +15,7 @@ import (
 func main() {
 	app := &cli.App{
 		Name:  "ctree",
-		Usage: "🎄 A Christmas tree right from your terminal!\nRepository: https://github.com/Matt-Gleich/ctree",
+		Usage: "🎄 A Christmas tree right from your terminal!\nRepository: https://github.com/gleich/ctree",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{
 				Name:  "no-refresh",

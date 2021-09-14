@@ -1,6 +1,6 @@
 release:
   github:
-    owner: Matt-Gleich
+    owner: gleich
     name: "ctree"
   prerelease: auto
 before:
@@ -20,11 +20,11 @@ builds:
       - 7
 brews:
   - tap:
-      owner: Matt-Gleich
+      owner: gleich
       name: tap
     folder: Formula
-    homepage: "https://github.com/Matt-Gleich/ctree"
+    homepage: "https://github.com/gleich/ctree"
     description: "🎄 A Christmas tree right from your terminal!"
     commit_author:
-      name: Matt-Gleich
+      name: gleich
       email: email@mattglei.ch

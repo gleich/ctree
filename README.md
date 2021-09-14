@@ -4,9 +4,9 @@
 
 🎄 A Christmas tree right from your terminal!
 
-![build](https://github.com/Matt-Gleich/ctree/workflows/build/badge.svg)
-![lint](https://github.com/Matt-Gleich/ctree/workflows/lint/badge.svg)
-![release](https://github.com/Matt-Gleich/ctree/workflows/release/badge.svg)
+![build](https://github.com/gleich/ctree/workflows/build/badge.svg)
+![lint](https://github.com/gleich/ctree/workflows/lint/badge.svg)
+![release](https://github.com/gleich/ctree/workflows/release/badge.svg)
 
 ## 👀 Demo
 
@@ -21,16 +21,16 @@ Don't want the tree to refresh every 2 seconds? Easy! Just add the `--no-refresh
 ### 🍎 macOS
 
 ```bash
-brew install Matt-Gleich/tap/ctree
+brew install gleich/tap/ctree
 ```
 
 ### 🐧 Linux and 🖥 Windows
 
-You can grab the binary from the [latest release](https://github.com/Matt-Gleich/ctree/releases/latest)
+You can grab the binary from the [latest release](https://github.com/gleich/ctree/releases/latest)
 
 ## 🙌 Contributing
 
-Before contributing please read the [CONTRIBUTING.md file](https://github.com/Matt-Gleich/ctree/blob/master/CONTRIBUTING.md)
+Before contributing please read the [CONTRIBUTING.md file](https://github.com/gleich/ctree/blob/master/CONTRIBUTING.md)
 
 <!-- DO NOT REMOVE - contributor_list:start -->
 ## 👥 Contributors
