@@ -16,7 +16,7 @@ jobs:
       - name: Set up Go 1.x
         uses: actions/setup-go@v2
         with:
-          go-version: ^1.15
+          go-version: ^1.17
         id: go
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -38,11 +38,11 @@ jobs:
       - name: Linting Dockerfile
         uses: brpaz/hadolint-action@master
         with:
-          dockerfile: "docker/Dockerfile"
+          dockerfile: 'docker/Dockerfile'
       - name: Linting dev.lint.Dockerfile
         uses: brpaz/hadolint-action@master
         with:
-          dockerfile: "docker/dev.lint.Dockerfile"
+          dockerfile: 'docker/dev.lint.Dockerfile'
   in-docker:
     runs-on: ubuntu-latest
     steps:
