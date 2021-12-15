@@ -17,10 +17,6 @@ files:
     source: https://github.com/gleich/go_template/blob/master/.gitignore
   - path: LICENSE.md
     source: https://github.com/gleich/gleich/blob/master/standard_documents/licenses/MIT_LICENSE.md
-  - path: docker/dev.lint.Dockerfile
-    source: https://github.com/gleich/go_template/blob/master/dev.lint.Dockerfile
-  - path: docker/dev.Dockerfile
-    source: https://github.com/gleich/go_template/blob/master/dev.Dockerfile
   - path: docker/Dockerfile
     source: https://github.com/gleich/go_template/blob/master/Dockerfile
   - path: CONTRIBUTING.md
@@ -33,8 +29,6 @@ files:
     source: https://github.com/gleich/gleich/blob/master/standard_documents/templates/issue_bug.md
   - path: .github/ISSUE_TEMPLATE/feature_request.md
     source: https://github.com/gleich/gleich/blob/master/standard_documents/templates/issue_feature.md
-  - path: .github/workflows/release.yml
-    source: https://github.com/gleich/go_template/blob/master/.github/workflows/release.yml
   - path: .github/workflows/contributors.yml
     source: https://github.com/gleich/gleich/blob/master/standard_documents/workflows/contributors.yml
   - path: .github/workflows/fsync.yml
